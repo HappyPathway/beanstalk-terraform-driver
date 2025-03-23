@@ -1,10 +1,9 @@
 # Best Practices
 
-- Always use version control systems for your Terraform code
-- Use Terraform modules to reuse and share code
-- Always run Terraform in a secure, isolated environment
-- Ensure separation of duties through IAM roles and policies
-- Always review and approve changes before applying them
-- Use Docker containers to ensure portability and reproducibility of environments
-- Use a stage and production environment separation for deploying changes
-- Regularly verify and monitor the state of your infrastructure
+- Always use versioning in your Terraform modules.
+- Use CodeBuild to handle the execution of Terraform commands.
+- Adopt IAM best practices to manage permissions. Use least privilege principle.
+- Use Docker for deployment to ensure consistent environment.
+- Use a web-based UI like Django to monitor and manage Terraform operations.
+- Follow RESTful APIs practices when building the operations service.
+- WebSocket should be used for real-time updates.
