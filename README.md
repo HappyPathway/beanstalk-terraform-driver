@@ -1,7 +1,7 @@
 # Beanstalk Terraform Driver Project
 
 ## Project Overview
-The Beanstalk Terraform Driver is a comprehensive platform for managing, configuring, and executing Terraform deployments through a web-based interface. It combines AWS Elastic Beanstalk for hosting, CodeBuild for execution, and a Django UI to provide an end-to-end solution for infrastructure as code operations.
+ The Beanstalk Terraform Driver is a comprehensive platform for managing, configuring, and executing Terraform deployments through a web-based interface. It combines AWS Elastic Beanstalk for hosting, CodeBuild for execution, and a Django UI to provide an end-to-end solution for infrastructure as code operations.
 
 ## Architecture Components
 
